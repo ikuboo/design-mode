@@ -1,4 +1,4 @@
-package com.b_observer;
+package com.b_observer.customer;
 
 /**
  * 消息对象

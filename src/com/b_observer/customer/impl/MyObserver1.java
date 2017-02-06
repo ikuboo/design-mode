@@ -1,18 +1,22 @@
-package com.b_observer.impl;
+package com.b_observer.customer.impl;
 
-import com.b_observer.Information;
-import com.b_observer.Observer;
-import com.b_observer.Subject;
+import com.b_observer.customer.Information;
+import com.b_observer.customer.Observer;
+import com.b_observer.customer.Subject;
 
 /**
  * 自定义观察者1
  */
 public class MyObserver1 implements Observer {
 
+    /**
+     * 主题对象，用于取消注册
+     */
     private Subject subject;
 
     public MyObserver1(Subject subject){
         this.subject = subject;
+        //注册
         subject.registObserver(this);
     }
 

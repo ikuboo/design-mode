@@ -1,8 +1,8 @@
-package com.b_observer.impl;
+package com.b_observer.customer.impl;
 
-import com.b_observer.Information;
-import com.b_observer.Observer;
-import com.b_observer.Subject;
+import com.b_observer.customer.Information;
+import com.b_observer.customer.Observer;
+import com.b_observer.customer.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

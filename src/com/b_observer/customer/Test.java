@@ -1,8 +1,8 @@
-package com.b_observer;
+package com.b_observer.customer;
 
-import com.b_observer.impl.MyObserver1;
-import com.b_observer.impl.MyObserver2;
-import com.b_observer.impl.MySubject;
+import com.b_observer.customer.impl.MyObserver1;
+import com.b_observer.customer.impl.MyObserver2;
+import com.b_observer.customer.impl.MySubject;
 
 /**
  * 测试方法
